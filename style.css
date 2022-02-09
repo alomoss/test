@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #040506;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #040506;
+}
+
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Prompt', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.logo-container h1 span{
+    font-weight: 900;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color:white;
+    font-family: 'Prompt', sans-serif;;
+    font-size: 16px;
+    font-weight: 600;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
+}
+
+.navigation a li:hover{
+    font-size: 18px;
+    color:red;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red, 0 0 120px red, 0 0 160px red;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s
+}
+
+.image-introduction{
+    filter: blur(5px);
+    opacity: 0.5;
+}
